@@ -1,21 +1,15 @@
----
-license: cc-by-nc-sa-4.0
-task_categories:
-- tabular-classification
-- feature-extraction
-- text-classification
-language:
-- en
-tags:
-- agentic-ai
-- synthetic-data
-- data-science
-- benchmark
-- human-AI-collaboration
-pretty_name: AgentDS-RetailBanking
----
+Rank 1 Winner: AgentDS Benchmark (Retail Banking)
+The Mission: Briefly explain the AgentDS competition (Human-AI collaboration in messy, real-world data).
 
-# 🏦 AgentDS-RetailBanking
+The Big Win: Explicitly state your final metrics: 0.5211 Macro-F1 for Fraud and 0.9553 for Credit Default. Mention that your default model improved by +0.0047 over the previous best
+
+Key Breakthroughs:
+Age-Risk Discovery: Mention that you identified the 65+ demographic as having the highest fraud risk (0.664%) and optimized your model weights accordingly.
+Behavioral Features: Explain how you shifted from "static snapshots" to "dynamic behavior" using rolling volatility and transaction velocity.
+
+
+About this Competition Datasets
+# 🏦 AgentDS-RetailBanking  
 link: https://huggingface.co/datasets/lainmn/AgentDS-RetailBanking
 This dataset is part of the **AgentDS Benchmark** — a multi-domain benchmark for evaluating human-AI collaboration in real-world, domain-specific data science.
 
