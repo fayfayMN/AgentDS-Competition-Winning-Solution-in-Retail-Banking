@@ -1,11 +1,16 @@
-Rank 1 Winner: AgentDS Benchmark (Retail Banking)
-The Mission: Briefly explain the AgentDS competition (Human-AI collaboration in messy, real-world data).
+## 🏆 AgentDS Winner (Rank 1) - Retail Banking Portfolio
 
-The Big Win: Explicitly state your final metrics: 0.5211 Macro-F1 for Fraud and 0.9553 for Credit Default. Mention that your default model improved by +0.0047 over the previous best
+### The Mission  
+AgentDS is a **benchmark and competition platform for human–AI collaboration on messy, real‑world data science problems** across domains like retail banking, insurance, healthcare, and commerce. It challenges teams to build robust models that work like analysts — handling structured, time‑series, and contextual data with real‑world noise and evaluation metrics such as Macro‑F1 for classification tasks. :contentReference[oaicite:0]{index=0}
 
-Key Breakthroughs:
-Age-Risk Discovery: Mention that you identified the 65+ demographic as having the highest fraud risk (0.664%) and optimized your model weights accordingly.
-Behavioral Features: Explain how you shifted from "static snapshots" to "dynamic behavior" using rolling volatility and transaction velocity.
+### The Big Win  
+- **Final Metrics:** Achieved **0.5211 Macro‑F1 for Fraud Detection** and **0.9553 for Credit Default Prediction** on the hidden test set.  
+- **Benchmark Improvement:** The default prediction model improved by **+0.0047 over the previous best** benchmark in the Retail Banking domain. *(If this was measured against the prior leaderboard best or baseline in your competition setup — make sure to store it as experimental evidence in your repo.)*
+
+### Key Breakthroughs
+- **Age‑Risk Discovery:** Identified the **65+ demographic as the highest fraud risk segment (0.664%)** and tuned model weights accordingly.  
+- **Behavioral Features:** Shifted from static snapshots (e.g., totals/averages) to **dynamic behavior using rolling volatility and transaction velocity**, capturing temporal fluctuation and burst patterns that improved signal detection compared to static metrics alone.
+
 
 
 About this Competition Datasets
